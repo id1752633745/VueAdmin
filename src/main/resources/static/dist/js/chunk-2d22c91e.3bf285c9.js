@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d22c91e"],{f493:function(e,n,t){"use strict";t.r(n);var c=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",[t("el-button",[e._v("数字字典")])],1)},u=[],a={name:"Dict"},i=a,l=t("2877"),o=Object(l["a"])(i,c,u,!1,null,"d1e858f2",null);n["default"]=o.exports}}]);
+//# sourceMappingURL=chunk-2d22c91e.3bf285c9.js.map

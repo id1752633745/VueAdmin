@@ -1,0 +1,24 @@
+server:
+  port: 81
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: admin
+    password: 771213
+  mvc:
+    static-path-pattern: /static/dist/**
+#  security:
+#    user:
+#      name: user
+#      password: 111111
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+markerhub:
+  jwt:
+    header: Authorization
+    expire: 604800 # 7天 单位 秒
+    secret: 7eca689f0d3389d9dea66ae112e5cfd7
+
+
